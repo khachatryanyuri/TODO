@@ -1,0 +1,21 @@
+.todos {
+    margin-bottom: 1rem;
+}
+
+.todos span.completed {
+    text-decoration: line-through;
+}
+
+.todos label{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: white;
+    padding: 1rem;
+}
+
+.todos i {
+    z-index: 2;
+}
